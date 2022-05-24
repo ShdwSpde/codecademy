@@ -10,4 +10,7 @@ switch (athleteFinalPosition) {
   case 'third place':
     console.log('You get the bronze medal!');
     break;
+  default:
+    console.log('No Medal Awarded');
+    break;
 }
