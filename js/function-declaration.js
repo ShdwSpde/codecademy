@@ -56,3 +56,7 @@ const plantNeedsWater = (day) => {
   }
 };
 
+// concise arrow function with ternary
+const plantNeedsWater = day => day === 'Wednesday' ? true : false;
+
+
