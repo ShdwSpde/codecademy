@@ -1,4 +1,4 @@
-// Declare the city variable outside the scope of the function blocl but can still access it for concatenation. Remember inner brackets for callback!!
+// Declare the city variable  gloabally outside the scope of the function block but can still access it for concatenation. Remember inner brackets for callback!!
 const city = 'New York City';
 function logCitySkyline () {
   let skyscraper = 'Empire State Building'
